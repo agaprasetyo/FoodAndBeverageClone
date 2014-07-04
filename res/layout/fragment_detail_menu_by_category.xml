@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_texture_pattern_5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_menu_fdmbc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#bdbdbd"
+        android:orientation="vertical" >
+
+        <id.knt.restaurant.foodandbeverage.ui.customview.SquareImageView
+            android:id="@+id/iv_picture_menu_fdmbc"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/sample"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_name_menu_label_fdmbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/tv_name_menu_fdmbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="..." />
+
+            <TextView
+                android:id="@+id/tv_price_menu_label_fdmbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="Price" />
+
+            <TextView
+                android:id="@+id/tv_price_menu_fdmbc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="20dp"
+                android:text="Rp ..." />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

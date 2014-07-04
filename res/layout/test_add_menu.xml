@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/pictureMenuAdd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/knife_fork" />
+
+    <AutoCompleteTextView
+        android:id="@+id/typeMenuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Food" />
+
+    <AutoCompleteTextView
+        android:id="@+id/categoryMenuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Breakfast" />
+
+    <EditText
+        android:id="@+id/nameMenuNameAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu Name" />
+
+    <EditText
+        android:id="@+id/priceMenuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/descriptionMenuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+    
+    <Button android:id="@+id/btnMenuAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+    
+
+</LinearLayout>

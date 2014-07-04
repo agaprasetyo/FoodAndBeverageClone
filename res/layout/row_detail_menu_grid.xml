@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+<id.knt.restaurant.foodandbeverage.ui.customview.SquareImageView
+        android:id="@+id/iv_row_detail_menu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <RelativeLayout
+            android:id="@+id/body_layout"
+            android:layout_below="@+id/iv_row_detail_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+</RelativeLayout>

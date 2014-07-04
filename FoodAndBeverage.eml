@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_7" jdk="Maven Android API 19 Platform" jdk_type="Android SDK">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target/classes"/>
+		<excludeFolder url="file://$MODULE_DIR$/target/generated-sources/combined-assets"/>
+		<excludeFolder url="file://$MODULE_DIR$/target/generated-sources/combined-resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/target/generated-sources/extracted-dependencies"/>
+		<excludeFolder url="file://$MODULE_DIR$/target/maven-status"/>
+	</contentEntry>
+	<lib name="Maven: android:android:4.4.2_r2" scope="PROVIDED"/>
+	<lib name="Maven: com.j256.ormlite:ormlite-jdbc:4.48" scope="TEST"/>
+	<levels>
+		<level name="Maven: android.support:compatibility-v13:19.0.1" value="project"/>
+		<level name="Maven: android:android:4.4.2_r2" value="project"/>
+		<level name="Maven: com.j256.ormlite:ormlite-android:4.48" value="project"/>
+		<level name="Maven: com.j256.ormlite:ormlite-core:4.48" value="project"/>
+		<level name="Maven: com.j256.ormlite:ormlite-jdbc:4.48" value="project"/>
+	</levels>
+</component>
